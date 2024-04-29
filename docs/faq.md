@@ -7,7 +7,7 @@ Once the cloning is done and you try to serve the pages via snare, you might get
 In this scenario, there are two things to make sure of:
 
 1. You are using the latest code from the Snare repository.
-    - For extra measure, make sure to compare the versions in the requirement.txt on the remote main branch(https://github.com/mushorg/snare/tree/main) and the code you have.
+    - For extra measure, make sure to compare the versions in the requirement.txt on the remote main branch(https://github.com/phanpot-ce/snare/tree/main) and the code you have.
 
 2. Make sure you have the tanner running properly.
     - If you are using the public tanner instance i.e. tanner.mushmush.org:8090, make sure it is responding.

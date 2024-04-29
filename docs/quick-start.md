@@ -14,7 +14,7 @@ SNARE is a web application honeypot and is the successor of [Glastopf](https://g
 
 ### Steps to setup
 
-1. Get SNARE: `git clone https://github.com/mushorg/snare.git` and `cd snare`
+1. Get SNARE: `git clone https://github.com/phanpot-ce/snare.git` and `cd snare`
 2. [Optional] Make virtual environment: `python3 -m venv venv`
 3. [Optional] Activate virtual environment: `. venv/bin/activate`
 

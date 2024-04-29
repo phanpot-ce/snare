@@ -8,7 +8,7 @@ setup(
     description="Super Next generation Advanced Reactive honEypot",
     author="MushMush Foundation",
     author_email="glastopf@public.honeynet.org",
-    url="https://github.com/mushorg/snare",
+    url="https://github.com/phanpot-ce/snare",
     packages=find_packages(exclude=["*.pyc"]),
     scripts=["./bin/snare", "./bin/clone"],
 )
