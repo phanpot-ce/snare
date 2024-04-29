@@ -14,8 +14,8 @@ RUN python3 setup.py install
 ARG PAGE_URL=example.com
 ENV PAGE_URL $PAGE_URL
 ENV PORT 80
-ENV TANNER tanner.mushmush.org
+ENV TANNER localhost
 
-RUN clone --target "http://$PAGE_URL"
+RUN clone --target "https://$PAGE_URL"
 
 CMD snare --no-dorks true --auto-update false --host-ip 0.0.0.0 --port $PORT --page-dir "$PAGE_URL" --tanner $TANNER
