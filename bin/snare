@@ -114,6 +114,7 @@ async def check_tanner():
             result = await resp.json()
             version = result["version"]
             vm.check_compatibility(version)
+            print(version, vm.check_compatibility(version))
         except aiohttp.ClientOSError:
             print_color("Can't connect to tanner host {}".format(req_url), 'ERROR')
             exit(1)
