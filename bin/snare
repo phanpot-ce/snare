@@ -109,6 +109,7 @@ async def check_tanner():
     vm = snare_helpers.VersionManager()
     async with aiohttp.ClientSession() as client:
         req_url = 'http://{}:8090/version'.format(args.tanner)
+        print(req_url)
         try:
             resp = await client.get(req_url)
             result = await resp.json()
