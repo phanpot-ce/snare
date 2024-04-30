@@ -49,8 +49,8 @@ Getting started
 #### Docker build instructions
 
 1. Change current directory to `snare` project directory
-2. `docker-compose build`
-3. `docker-compose up`
+2. `sudo docker-compose build --build-arg PAGE_URL=example.com`
+3. `sudo docker-compose up`
 4. Snare will start on 0.0.0.0 with port 80.
 More information about running `docker-compose` can be found [here.](https://docs.docker.com/compose/gettingstarted/)
 
