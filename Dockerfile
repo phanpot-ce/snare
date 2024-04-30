@@ -14,7 +14,7 @@ RUN python3 setup.py install
 ARG PAGE_URL=example.com
 ENV PAGE_URL $PAGE_URL
 ENV PORT 80
-ENV TANNER localhost
+ENV TANNER tanner
 
 RUN clone --target "https://$PAGE_URL"
 
